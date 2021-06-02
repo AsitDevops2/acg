@@ -1,0 +1,22 @@
+.card-img-top {
+   
+    height: 7vw;
+    object-fit: cover;
+}
+.btn-group {
+  margin-bottom: 10px;
+}
+.btn-default {
+    background:"#3F65D5" !important;
+    color: white;
+    border-radius: 15px;
+    font-style: normal;
+    font-family: sans-serif;  
+}
+.margin-top {
+    margin-top:30px;
+}
+.card-title {
+    text-align: center;
+    background: darkturquoise;
+}
