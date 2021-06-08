@@ -5,8 +5,9 @@ import { history } from '../../helpers';
 import items from './ExplorerItems';
 import ConnectModal from '../modal/ConnectModal';
 import GoogleDriveModal from '../modal/GoogleDriveModal';
-
-
+import MySQLModal from '../modal/MySQLModal';
+import MongoModal from '../modal/MongoModal';
+import OracleModal from '../modal/OracleModal';
 
 interface state {
     name: string;
@@ -35,7 +36,10 @@ export const ExplorerPage = () => {
                     </button>
                 </div>
                 { name === 'jira' && <ConnectModal/>}
-                { name !== 'jira' && <GoogleDriveModal/>}
+                { name === 'mysql' && <MySQLModal/>}
+                { name === 'googleDrive' && <GoogleDriveModal/>}
+                { name === 'mongo' && <MongoModal/>}
+                { name === 'oracle' && <OracleModal/>}
             </div>
             
             <div className="justify-content-center">

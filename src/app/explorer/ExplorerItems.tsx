@@ -38,6 +38,24 @@ const items:any = {
         }
        
 
+    ],
+    mysql: [
+        {
+            title: 'Connect to MySQL',
+            url: 'https://github.com/AsitDevops2/mysql-connector/archive/refs/heads/main.zip'
+        }
+    ],
+    mongo: [
+        {
+            title: 'Connect to MongoDB',
+            url: ''
+        }
+    ],
+    oracle: [
+        {
+            title: 'Connect to Oracle',
+            url: ''
+        }
     ]
 }
 

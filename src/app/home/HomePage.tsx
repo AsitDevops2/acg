@@ -28,6 +28,7 @@ function HomePage() {
                         Explore</button>
                     </div>
                 </div>
+                
                 <div className="card col-md-2 ml-3">
                     <img src={gd} className="card-img-top" alt="..." />
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
@@ -37,29 +38,30 @@ function HomePage() {
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">
+                    <img src={mysql} className="card-img-top" alt="..." />
+                    {/* <h5 className="card-title">Java Spring Boot</h5> */}
+                    <div className="btn-group">
+                        {/* <button className="btn btn-success btn-sm">Download Code</button> */}
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'mysql',title:'MySQL Connectors'})}}>Explore</button>
+                    </div>
+                </div>
+                <div className="card col-md-2 ml-3">
+                    <img src={mongo} className="card-img-top" alt="..." />
+                    {/* <h5 className="card-title">Java Spring Boot</h5> */}
+                    <div className="btn-group">
+                        {/* <a href="http://localhost:8082/google_drive/google-drive-connector.zip" className="btn btn-success btn-sm">Download Code</a> */}
+                        <button className="btn btn-outline-info btn-sm" disabled>In Progress</button>
+                    </div>
+                </div>
+                <div className="card col-md-2 ml-3">
                     <img src={oracle} className="card-img-top" alt="..." />
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
+                        <button className="btn btn-outline-info btn-sm" disabled>In Progress</button>
                     </div>
                 </div>
-                <div className="card col-md-2 ml-3">
-                    <img src={sf} className="card-img-top" alt="..." />
-                    {/* <h5 className="card-title">Java Spring Boot</h5> */}
-                    <div className="btn-group">
-                        {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
-                    </div>
-                </div>
-                <div className="card col-md-2 ml-3">
-                    <img src={ldap} className="card-img-top" alt="..." />
-                    {/* <h5 className="card-title">Java Spring Boot</h5> */}
-                    <div className="btn-group">
-                        {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
-                    </div>
-                </div>
+                
             </div>
 
             <div className="row justify-content-center margin-top">
@@ -68,31 +70,25 @@ function HomePage() {
                     {/* <h5 className="card-title">React JS</h5> */}
                     <div className="btn-group">
                         {/* <a href="http://localhost:8082/jira/jira-connector.zip" className="btn btn-success btn-sm">Download Code</a> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
+                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
                     </div>
                 </div>
+               
                 <div className="card col-md-2 ml-3">
-                    <img src={mongo} className="card-img-top" alt="..." />
-                    {/* <h5 className="card-title">Java Spring Boot</h5> */}
-                    <div className="btn-group">
-                        {/* <a href="http://localhost:8082/google_drive/google-drive-connector.zip" className="btn btn-success btn-sm">Download Code</a> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
-                    </div>
-                </div>
-                <div className="card col-md-2 ml-3">
-                    <img src={mysql} className="card-img-top" alt="..." />
+                    <img src={sf} className="card-img-top" alt="..." />
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
+                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
                     </div>
                 </div>
+                
                 <div className="card col-md-2 ml-3">
                     <img src={aws} className="card-img-top" alt="..." />
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
+                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">
@@ -100,7 +96,15 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm">Explore</button>
+                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
+                    </div>
+                </div>
+                <div className="card col-md-2 ml-3">
+                    <img src={ldap} className="card-img-top" alt="..." />
+                    {/* <h5 className="card-title">Java Spring Boot</h5> */}
+                    <div className="btn-group">
+                        {/* <button className="btn btn-success btn-sm">Download Code</button> */}
+                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
                     </div>
                 </div>
                
