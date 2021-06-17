@@ -1,6 +1,4 @@
-
 function GoogleDriveModal() {
-
     return (
         <div className="d-flex justify-content-center" style={{marginTop:'20px',marginBottom:'20px'}}>
             <div className="card" style={{marginLeft:'10px'}}>

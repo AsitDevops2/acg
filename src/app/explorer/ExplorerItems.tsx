@@ -41,20 +41,20 @@ const items:any = {
     ],
     mysql: [
         {
-            title: 'Connect to MySQL',
+            title: 'Connect to MySQL Source Code',
             url: 'https://github.com/AsitDevops2/mysql-connector/archive/refs/heads/main.zip'
         }
     ],
     mongo: [
         {
-            title: 'Connect to MongoDB',
-            url: ''
+            title: 'Connect to MongoDB Source Code',
+            url: 'https://github.com/AsitDevops2/mongodb-connector/archive/refs/heads/main.zip'
         }
     ],
     oracle: [
         {
-            title: 'Connect to Oracle',
-            url: ''
+            title: 'Connect to Oracle Source Code',
+            url: 'https://github.com/AsitDevops2/oracle-connector/archive/refs/heads/main.zip'
         }
     ]
 }

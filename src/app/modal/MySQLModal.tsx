@@ -5,11 +5,11 @@ export const MySQLModal = (props:any) => {
    
     const [inputs, setInputs] = useState({
         url: '',
-        username: '',
+        userName: '',
         password:''
     });
     const [submitted, setSubmitted] = useState(false);
-    const { url, username, password} = inputs;
+    const { url, userName, password} = inputs;
    
 
     
@@ -22,15 +22,15 @@ export const MySQLModal = (props:any) => {
         e.preventDefault();
 
         setSubmitted(true);
-        if (url && password && username) {
+        if (url && password && userName) {
                        
             axios({
                 method: 'POST',
                 url: 'http://192.168.2.78:7070/api/v1/mysql/getConnection',
                data: {
-                   url: url,
-                   username: username,
-                   password: password
+                   userName: userName,
+                   password: password,
+                   url: url
                }
             }).then(function (response) {
                 if(response.data.status === 200){
@@ -58,8 +58,8 @@ export const MySQLModal = (props:any) => {
                 </div>
                 <div className="form-group">
                     <label>Username</label>
-                    <input type="username" name="username" value={username} onChange={handleChange} className={'form-control' + (submitted && !username ? ' is-invalid' : '')} />
-                    {submitted && !username &&
+                    <input type="username" name="userName" value={userName} onChange={handleChange} className={'form-control' + (submitted && !userName ? ' is-invalid' : '')} />
+                    {submitted && !userName &&
                         <div className="invalid-feedback">Username is required</div>
                     }
                 </div>

@@ -24,7 +24,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <a href="https://github.com/AsitDevops2/jira-connector/archive/refs/heads/main.zip" className="btn btn-success btn-sm">Download Code</a> */}
-                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'jira',title:'Jira Connectors'})}}>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'jira',title:'Jira Connector'})}}>
                         Explore</button>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <a href="https://github.com/AsitDevops2/google-drive-connect/archive/refs/heads/main.zip" className="btn btn-success btn-sm">Download Code</a> */}
-                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'googleDrive',title:'Google Drive Connectors'})}}>Explore</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'googleDrive',title:'Google Drive Connector'})}}>Explore</button>
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">
@@ -42,7 +42,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'mysql',title:'MySQL Connectors'})}}>Explore</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'mysql',title:'MySQL Connector'})}}>Explore</button>
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">
@@ -50,7 +50,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <a href="http://localhost:8082/google_drive/google-drive-connector.zip" className="btn btn-success btn-sm">Download Code</a> */}
-                        <button className="btn btn-outline-info btn-sm" disabled>In Progress</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'mongo',title:'MongoDB Connector'})}}>Explore</button>
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">
@@ -58,7 +58,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-outline-info btn-sm" disabled>In Progress</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'oracle',title:'Oracle Connector'})}}>Explore</button>
                     </div>
                 </div>
                 

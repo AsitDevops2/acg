@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import './modal.css';
+
 export const OracleModal = (props:any) => {
    
     const [inputs, setInputs] = useState({
@@ -25,7 +26,7 @@ export const OracleModal = (props:any) => {
         if (url && password && username) {                                   
             axios({
                 method: 'POST',
-                url: 'https://localhost:8080/api/oracle/getConnection',
+                url: 'http://localhost:7072/api/oracle/getConnection',
                 data: {
                     url: url,
                     username: username,
@@ -33,10 +34,10 @@ export const OracleModal = (props:any) => {
                 }
                 
             }).then(function (response) {
-                if(response.status === 200){
-                    alert("Connection successfull..!!");
+                if(response.data.status === 200){
+                    alert("Connection successful..!!");
                 }else{
-                    alert("Please enter correct details.");
+                    alert(response.data.message);
                 }
                
             }).catch(error=>{

@@ -1,5 +1,4 @@
-.card-img-top {
-   
+.card-img-top {   
     height: 7vw;
     object-fit: cover;
 }
@@ -7,9 +6,9 @@
   margin-bottom: 10px;
 }
 .btn-default {
-    background:"#3F65D5" !important;
-    color: white;
+    background:"#3F65D5" !important;    
     border-radius: 15px;
+    color: white;
     font-style: normal;
     font-family: sans-serif;  
 }
