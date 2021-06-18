@@ -26,7 +26,7 @@ export const OracleModal = (props:any) => {
         if (url && password && username) {                                   
             axios({
                 method: 'POST',
-                url: 'http://localhost:7072/api/oracle/getConnection',
+                url: 'http://192.168.2.78:7072/api/oracle/getConnection',
                 data: {
                     url: url,
                     username: username,
