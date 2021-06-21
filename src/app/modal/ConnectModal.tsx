@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 import './modal.css';
+import {history} from '../../helpers';
+
 export const ConnectModal = (props:any) => {
    
     const [inputs, setInputs] = useState({
@@ -11,7 +13,7 @@ export const ConnectModal = (props:any) => {
     const [submitted, setSubmitted] = useState(false);
     const { url, username, password} = inputs;
    
-
+    
     
     function handleChange(e:any) {
         const { name, value } = e.target;
@@ -75,6 +77,9 @@ export const ConnectModal = (props:any) => {
                     <button name="connect" className="btn btn-default btn-sm">
                         Connect
                     </button>
+                    <button name="Close" style={{marginLeft:"5px"}} data-dismiss="modal" className="btn btn-default btn-sm">
+                        Close
+                    </button> 
                 </div>
             </form>
         </div>

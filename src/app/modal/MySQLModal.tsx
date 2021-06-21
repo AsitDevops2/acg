@@ -70,9 +70,12 @@ export const MySQLModal = (props:any) => {
                         <div className="invalid-feedback">Password is required</div>
                     }
                 </div>
-                <div className="form-group" style={{marginTop:"15px"}}>
+                <div className="form-group" style={{marginTop:"15px",marginLeft:'10px'}}>
                     <button name="connect" className="btn btn-default btn-sm">
                         Connect
+                    </button>
+                    <button name="Close" style={{marginLeft:"5px"}} data-dismiss="modal" className="btn btn-default btn-sm">
+                        Close
                     </button>
                 </div>
             </form>
