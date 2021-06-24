@@ -41,7 +41,7 @@ const items:any = {
     ],
     mysql: [
         {
-            title: 'Connect to MySQL Source Code',
+            title: 'Connect to Mysql Source Code',
             url: 'https://github.com/AsitDevops2/mysql-connector/archive/refs/heads/main.zip'
         }
     ],

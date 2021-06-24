@@ -1,5 +1,5 @@
 .bg-primary {
-    background-color: #1bade5 !important;
+    background-color: #1bb3bb !important;
 }
 .img-box{
     width: 80px;
@@ -13,5 +13,9 @@
     color: black;
 }
 .dropdown-menu {
-    background-color: #1bade5;
+    background-color: #1bb3bb;
+}
+.dropdown-item:hover{
+    background-color: #1bb3bb;
+    cursor: pointer;
 }

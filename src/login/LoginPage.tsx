@@ -32,8 +32,8 @@ function LoginPage() {
     }
 
     return (
-        <div className="col-lg-4 offset-lg-4">
-            <h3 style={{textAlign:"center"}}>Login With ACG</h3>
+        <div className="col-lg-4 offset-lg-4" style={{marginTop:'1%'}}>
+            <h4 style={{textAlign:"center"}}>Login With ACG</h4>
             <form name="form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label>Email</label>
@@ -50,7 +50,7 @@ function LoginPage() {
                     }
                 </div>
                 <div className="form-group">
-                    <button name="login" className="btn btn-primary">
+                    <button name="login" className="btn btn-default">
                         {loggingIn && <span className="spinner-border spinner-border-sm mr-1"></span>}
                         Login
                     </button>

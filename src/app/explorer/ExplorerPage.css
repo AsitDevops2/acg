@@ -13,16 +13,22 @@ th {
       justify-content: center;
   }
   .btn-default {
-      background:#3F65D5 !important;
-      color: white;
-      border-radius: 15px;  
-      font-style: normal;
-      font-family: sans-serif;      
+    background:#1bb3bb !important;
+    color:white;
+    border-radius: 15px;  
+    font-style: normal;
+    font-family: sans-serif;           
   }
-  .h4{
+  .btn-outline-secondary {
+    border-radius: 15px;  
+    font-style: normal;
+    font-family: sans-serif;      
+}
+  h4{
     font-style: normal;
     font-family: sans-serif;  
   }
+  
   .btn-circle {
     width: 30px;
     height: 30px;

@@ -50,7 +50,7 @@ export const MySQLModal = (props:any) => {
         <div className="col-lg-10 offset-lg-1">
             <form name="form" onSubmit={handleSubmit} style={{"textAlign":"left"}}>
                 <div className="form-group">
-                    <label>URL</label>
+                    <label>Url</label>
                     <input type="text" name="url" value={url} onChange={handleChange} className={'form-control' + (submitted && !url ? ' is-invalid' : '')} />
                     {submitted && !url &&
                         <div className="invalid-feedback">Url is required</div>
@@ -74,7 +74,7 @@ export const MySQLModal = (props:any) => {
                     <button name="connect" className="btn btn-default btn-sm">
                         Connect
                     </button>
-                    <button name="Close" style={{marginLeft:"5px"}} data-dismiss="modal" className="btn btn-default btn-sm">
+                    <button name="Close" style={{marginLeft:"5px"}} data-dismiss="modal" className="btn btn-secondary btn-sm">
                         Close
                     </button>
                 </div>

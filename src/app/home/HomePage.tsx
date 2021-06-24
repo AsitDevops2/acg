@@ -42,7 +42,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'mysql',title:'MySQL Connector'})}}>Explore</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'mysql',title:'Mysql Connector'})}}>Explore</button>
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">

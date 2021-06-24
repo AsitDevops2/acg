@@ -7,10 +7,18 @@
     width:30%;
     margin:auto;
 }
-
+label{
+    font-style: normal;
+    font-family: sans-serif; 
+}
 .btn-default {
-    background:#3F65D5 !important;
-    color: white;
+    background:#1bb3bb !important;
+    color:white;
+    border-radius: 15px;  
+    font-style: normal;
+    font-family: sans-serif;      
+}
+.btn-secondary {
     border-radius: 15px;  
     font-style: normal;
     font-family: sans-serif;      

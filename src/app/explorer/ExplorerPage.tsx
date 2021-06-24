@@ -43,11 +43,11 @@ export const ExplorerPage = () => {
             </div>
             
             <div className="justify-content-center">
-                <div className="row" style={{ margin: '10px',padding:'10px' }}>
+                <div className="row" style={{padding:'10px'}}>
                     {/* <img src={images[img]} alt="Google Drive"  className="col-md-2" /> */}
-                    <h5 className="col-md-10">{title}</h5>
-                    <button type="button" title="Connect" data-toggle="modal" onClick={modalShowHide} data-target="#connectModal" className="btn btn-success btn-sm"><i className="fa fa-link">Connect</i></button>
-                    <button onClick={goBack} style={{marginLeft:"5px"}} className="btn btn-default btn-sm">Back</button>
+                    <h4 className="col-md-10">{title}</h4>
+                    <button type="button" title="Connect" data-toggle="modal" onClick={modalShowHide} data-target="#connectModal" className="btn btn-default btn-sm"><i className="fa fa-link">Connect</i></button>
+                    <button onClick={goBack} style={{marginLeft:"5px"}} className="btn btn-secondary btn-sm">Back</button>
                 </div>
                 <table className="table table-bordered">
                     <thead>

@@ -32,8 +32,8 @@ function RegisterPage() {
     }
 
     return (
-        <div className="col-lg-4 offset-lg-4">
-            <h3 style={{textAlign:"center"}}>Register With ACG</h3>
+        <div className="col-lg-4 offset-lg-4" style={{marginTop:'1%'}}>
+            <h4 style={{textAlign:"center"}}>Register With ACG</h4>
             <form name="form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label>First Name</label>
@@ -71,11 +71,11 @@ function RegisterPage() {
                     }
                 </div>
                 <div className="form-group">
-                    <button className="btn btn-primary">
+                    <button className="btn btn-default mr-2">
                         {registering && <span className="spinner-border spinner-border-sm mr-1"></span>}
                         Register
                     </button>
-                    <Link to="/login" className="btn btn-link">Cancel</Link>
+                    <Link to="/login" className="btn btn-secondary">Cancel</Link>
                 </div>
             </form>
         </div>

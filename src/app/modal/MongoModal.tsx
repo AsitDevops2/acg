@@ -96,7 +96,7 @@ export const MongoModal = (props:any) => {
                     <button name="connect" className="btn btn-default btn-sm">
                         Connect
                     </button>
-                    <button name="Close" style={{marginLeft:"5px"}} data-dismiss="modal" className="btn btn-default btn-sm">
+                    <button name="Close" style={{marginLeft:"5px"}} data-dismiss="modal" className="btn btn-secondary btn-sm">
                         Close
                     </button>
                 </div>
