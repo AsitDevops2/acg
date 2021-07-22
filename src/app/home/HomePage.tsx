@@ -79,7 +79,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'salesforce',title:'Salesforce Connector'})}}>Explore</button>
                     </div>
                 </div>
                 
@@ -88,7 +88,7 @@ function HomePage() {
                     {/* <h5 className="card-title">Java Spring Boot</h5> */}
                     <div className="btn-group">
                         {/* <button className="btn btn-success btn-sm">Download Code</button> */}
-                        <button className="btn btn-outline-success btn-sm" disabled>Coming Soon</button>
+                        <button className="btn btn-default btn-sm" onClick={()=>{explorerItem({name:'aws',title:'AWS Connector'})}}>Explore</button>
                     </div>
                 </div>
                 <div className="card col-md-2 ml-3">

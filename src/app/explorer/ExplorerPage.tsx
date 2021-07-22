@@ -8,6 +8,8 @@ import GoogleDriveModal from '../modal/GoogleDriveModal';
 import MySQLModal from '../modal/MySQLModal';
 import MongoModal from '../modal/MongoModal';
 import OracleModal from '../modal/OracleModal';
+import AWSModal from '../modal/AWSModal';
+import SalesforceModal from '../modal/SalesforceModal';
 
 interface state {
     name: string;
@@ -40,6 +42,8 @@ export const ExplorerPage = () => {
                 { name === 'googleDrive' && <GoogleDriveModal/>}
                 { name === 'mongo' && <MongoModal/>}
                 { name === 'oracle' && <OracleModal/>}
+                { name === 'aws' && <AWSModal/>}
+                { name === 'salesforce' && <SalesforceModal/>}
             </div>
             
             <div className="justify-content-center">

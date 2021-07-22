@@ -56,6 +56,18 @@ const items:any = {
             title: 'Connect to Oracle Source Code',
             url: 'https://github.com/AsitDevops2/oracle-connector/archive/refs/heads/main.zip'
         }
+    ],
+    aws: [
+        {
+            title: 'Connect to AWS Source Code',
+            url: 'https://github.com/AsitDevops2/aws-connector/archive/refs/heads/main.zip'
+        }
+    ],
+    salesforce: [
+        {
+            title: 'Connect to Salesforce Source Code',
+            url: 'https://github.com/AsitDevops2/salesforce-connector/archive/refs/heads/main.zip'
+        }
     ]
 }
 
